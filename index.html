@@ -16,6 +16,16 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Entrenador Personal Mar del Plata | Juan Martín Álvarez" />
     <meta name="twitter:description" content="Entrenamiento de fuerza y bienestar en Mar del Plata, zona Güemes." />
+    
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
 
   <body>
