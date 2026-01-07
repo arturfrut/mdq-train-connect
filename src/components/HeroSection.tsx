@@ -1,6 +1,6 @@
-import { Instagram, Dumbbell } from "lucide-react";
-
-const INSTAGRAM_URL = "https://instagram.com/elgarage.training.mdq";
+import { Instagram } from "lucide-react";
+import dumbellIcon from "@/assets/dumbell_1.svg";
+const INSTAGRAM_URL = "https://www.instagram.com/garage.training.mdq";
 
 const HeroSection = () => {
   return (
@@ -17,23 +17,64 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 section-container text-center py-20">
-        {/* Dumbbell Icon */}
-        <div className="mb-8 flex justify-center opacity-0 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-          <div className="p-4 rounded-full border border-hero-foreground/20">
-            <Dumbbell className="w-10 h-10 text-hero-foreground" strokeWidth={1.5} />
+        {/* Logo/Brand Section - Square-ish group */}
+        <div 
+          className="relative inline-block mb-12 opacity-0 animate-fade-up " 
+          style={{ animationDelay: '0.1s' }}
+        >
+          {/* Container for the square group */}
+          <div className="relative h-full flex flex-col items-center justify-start">
+            {/* Dumbbell Icon - White */}
+            <div className="flex-shrink-0">
+              <img 
+                src={dumbellIcon} 
+                alt="Dumbbell" 
+                className="h-auto w-auto object-contain mx-auto md:h-[22.5vh] h-[18vh]"
+                style={{ 
+                  filter: 'brightness(0) invert(1)'
+                }}
+              />
+            </div>
+
+            {/* Small gap */}
+            <div className="h-4" />
+
+            {/* Overlapping text block with background */}
+            <div className="relative md:-mt-[10.6vh] -mt-[7.2vh]"> {/* 40% overlap */}
+              <div className="bg-hero-bg px-4 py-2">
+                <h1 
+                  className="font-display font-black whitespace-nowrap leading-tight"
+                  style={{ 
+                    color: '#871d2e',
+                    fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
+                    letterSpacing: '0.15em'
+                  }}
+                >
+                  JUAN MARTÍN
+                </h1>
+                <h1 
+                  className="font-display font-black whitespace-nowrap leading-none"
+                  style={{ 
+                    color: '#871d2e',
+                    fontSize: 'clamp(4rem, 8vw, 7rem)',
+                    letterSpacing: '0.05em'
+                  }}
+                >
+                  ALVAREZ
+                </h1>
+                <p 
+                  className="text-right text-white font-body font-medium"
+                  style={{ fontSize: 'clamp(0.7rem, 1.3vw, 0.95rem)' }}
+                >
+                  Entrenamiento
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Main Title */}
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-hero-foreground mb-4 opacity-0 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          Juan Martín Álvarez
-        </h1>
-        <p className="font-display text-2xl sm:text-3xl md:text-4xl text-hero-foreground/80 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-          Entrenamiento
-        </p>
-
-        {/* Subtitle */}
-        <p className="font-body text-lg sm:text-xl text-hero-foreground/70 max-w-2xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: '0.4s' }}>
+        {/* Description */}
+        <p className="font-body text-lg sm:text-xl text-hero-foreground/70 max-w-2xl mx-2 mb-12 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: '0.4s' }}>
           Entrenamiento de fuerza y bienestar para personas reales en Mar del Plata.
         </p>
 

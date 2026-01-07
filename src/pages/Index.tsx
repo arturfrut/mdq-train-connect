@@ -75,7 +75,7 @@ const Index = () => {
           "priceRange": "$$",
           "openingHours": "Mo-Fr 07:00-21:00, Sa 08:00-14:00",
           "sameAs": [
-            "https://instagram.com/elgarage.training.mdq"
+            "https://www.instagram.com/garage.training.mdq"
           ]
         })}
       </script>

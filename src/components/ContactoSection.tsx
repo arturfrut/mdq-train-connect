@@ -1,7 +1,7 @@
 import { Instagram, MapPin } from "lucide-react";
 
-const INSTAGRAM_URL = "https://instagram.com/elgarage.training.mdq";
-const INSTAGRAM_HANDLE = "@elgarage.training.mdq";
+const INSTAGRAM_URL = "https://www.instagram.com/garage.training.mdq";
+const INSTAGRAM_HANDLE = "@garage.training.mdq";
 
 const ContactoSection = () => {
   return (

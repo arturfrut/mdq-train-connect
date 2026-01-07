@@ -1,6 +1,6 @@
 import { Instagram, Pill } from "lucide-react";
 
-const INSTAGRAM_URL = "https://instagram.com/elgarage.training.mdq";
+const INSTAGRAM_URL = "https://www.instagram.com/garage.training.mdq";
 
 const SuplementosSection = () => {
   return (
