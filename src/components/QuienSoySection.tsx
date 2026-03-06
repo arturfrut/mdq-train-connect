@@ -49,7 +49,7 @@ const QuienSoySection = () => {
                 <p className="text-xs sm:text-sm text-muted-foreground">años de experiencia</p>
               </div>
               <div className="text-center">
-                <p className="font-display text-2xl sm:text-3xl text-primary">16-65</p>
+                <p className="font-display text-2xl sm:text-3xl text-primary">14-65</p>
                 <p className="text-xs sm:text-sm text-muted-foreground">rango de edades</p>
               </div>
               <div className="text-center">

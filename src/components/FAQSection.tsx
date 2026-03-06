@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     pregunta: "¿Hay límite de edad?",
-    respuesta: "Trabajo con personas desde los 16 hasta los 65 años. El entrenamiento de fuerza es beneficioso en todas las etapas de la vida.",
+    respuesta: "Trabajo con personas desde los 14 hasta los 65 años. El entrenamiento de fuerza es beneficioso en todas las etapas de la vida.",
   },
   {
     pregunta: "¿Cómo empiezo?",
